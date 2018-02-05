@@ -1,0 +1,21 @@
+{
+  "name": "google-spreadhsheet-as-json",
+  "version": "1.0.0",
+  "description": "Reads a google spreadhsheet as json",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "google",
+    "spreadsheet",
+    "sheets",
+    "json"
+  ],
+  "author": "ppsreejith",
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^1.1.9",
+    "lodash": "^4.17.5"
+  }
+}
