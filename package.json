@@ -1,7 +1,7 @@
 {
-  "name": "google-spreadhsheet-as-json",
-  "version": "1.0.2",
-  "description": "Reads a google spreadhsheet as json",
+  "name": "google-spreadsheet-as-json",
+  "version": "1.0.0",
+  "description": "Reads a google spreadsheet as json",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
