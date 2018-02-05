@@ -1,4 +1,4 @@
-# google-spreadsheet-json
+# google-spreadsheet-as-json
 Use a google spreadsheet as a json store
 
 # Usage
@@ -6,7 +6,7 @@ In your spreadsheet, go to File > Publish to the web and click on "Web Page" dro
 and then copy the link. Assuming the link is in the variable `link`.
 
 ```
-const fetchStore = require('google-spreadsheet-json');
+const fetchStore = require('google-spreadsheet-as-json');
 
 fetchStore(link, (err, data) => console.log(data));
 ```
